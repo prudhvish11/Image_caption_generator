@@ -1,7 +1,6 @@
 gunicorn
 keras
 tensorflow
-numpy
 warnings
 matplotlib
 flask

@@ -8,9 +8,7 @@ warnings.filterwarnings("ignore")
 app = Flask(__name__)
 
 
-@app.route('/h')
-def hello():
-    return render_template('main.html')
+
 
 @app.route("/predict", methods=['GET'])
 def text2():

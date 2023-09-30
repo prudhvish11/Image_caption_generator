@@ -19,6 +19,7 @@ def text2():
 
 @app.route('/', methods = ['GET', 'POST'])
 def upload_file():
+	result_dic = {}
 	if request.method == 'POST':
 		img = request.files['image']
 

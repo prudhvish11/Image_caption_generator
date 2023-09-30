@@ -5,4 +5,3 @@ numpy
 warnings
 matplotlib
 flask
-caption

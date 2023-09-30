@@ -1,0 +1,9 @@
+gunicorn
+keras
+tensorflow
+pickle
+numpy
+warnings
+matplotlib
+flask
+caption
